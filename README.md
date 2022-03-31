@@ -1,2 +1,2 @@
 # sunlife_sf_assignment
-Assignment Repo
+Assignment repo containing some artifacts and file related
