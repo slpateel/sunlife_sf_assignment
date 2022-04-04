@@ -1,0 +1,8 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" 
+                access="global" >
+   <aura:attribute name= "EmployeeFirstName" type="string" default="Jhon" 
+                    Description="Emplyee name is entered"/>
+    <aura:attribute name ="EmployeeLastname" type="string" default ="Mckerson"
+                        description="Employee last name is entered"/>
+    The employee first and last name is {!v.EmployeeFirstName},{!v.EmployeeLastname}
+</aura:component>

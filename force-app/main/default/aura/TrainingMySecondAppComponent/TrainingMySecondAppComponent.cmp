@@ -1,0 +1,6 @@
+<aura:component >
+    <ui:inputText>auro:id="NameEnterted"label:"Name"placeholder="First,Last"
+    </ui:inputText> 
+    <ui:button> auro:id="SubmitButton"label="Submit" Press="{!c.getInput}"</ui:button>
+    <ui:outputText>auro:id="DisplayOutput"value=""</ui:outputText>
+</aura:component>
